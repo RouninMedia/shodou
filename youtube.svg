@@ -14,7 +14,7 @@ fill: rgb(255, 0, 0);
 }
 
 polygon {
-fill: rgb(255, 0, 0);
+fill: rgb(255, 255, 255);
 transform: translate(5px, 60px);
 }
 
