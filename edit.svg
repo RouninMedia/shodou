@@ -5,8 +5,12 @@
 <defs>
 <style type="text/css"><![CDATA[
 
-svg {
-background-color: rgb(255, 0, 0);
+polygon {
+fill: rgb(255, 0, 0);
+}
+
+polygon + g {
+transform: translate(6px, -18px);
 }
 
 rect {
@@ -15,7 +19,7 @@ stroke-width: 10;
 fill: rgb(255, 0, 0);
 }
 
-g rect, rect:nth-of-type(n+2) {
+g g rect, rect:nth-of-type(n+2) {
 stroke-width: 10;
 }
 
@@ -24,7 +28,7 @@ stroke: rgb(255, 0, 0);
 fill: rgb(255, 0, 0);
 }
 
-g rect:nth-of-type(2), rect:nth-of-type(4) {
+g g rect:nth-of-type(2), rect:nth-of-type(4) {
 stroke: rgb(255,255,255);
 fill: rgb(255,255,255);
 }
@@ -32,15 +36,15 @@ fill: rgb(255,255,255);
 line {
 stroke:rgb(255,255,0);
 stroke-width: 20;
-}
-
-g line {
 stroke: rgb(255, 0, 0);
 }
 
 ]]></style>
 </defs>
 
+<polygon points="0,0 0,420 420,420 420,0"/>
+
+<g>
 <rect x="21" y="99" width="300" height="300" rx="15" ry="15" />
 
 <g transform="rotate(-45 50 50)">
@@ -50,7 +54,6 @@ stroke: rgb(255, 0, 0);
 <line x1="-60" y1="315" x2="190" y2="315" />
 <line x1="200" y1="235" x2="200" y2="335" />
 <line x1="240" y1="235" x2="240" y2="335" />
-
 <line x1="-60" y1="225" x2="190" y2="225" />
 <line x1="-60" y1="345" x2="190" y2="345" />
 </g>
@@ -58,5 +61,6 @@ stroke: rgb(255, 0, 0);
 <rect x="131" y="275" width="26" height="26" />
 <rect x="76" y="296" width="60" height="60" />
 <rect x="76" y="336" width="20" height="20" />
+</g>
 
 </svg>
