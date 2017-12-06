@@ -13,7 +13,7 @@
 }
 
 svg {
-font-family: 'handsoffhri-arial';
+font-family: 'custom-sans-serif';
 }
 
 rect {
