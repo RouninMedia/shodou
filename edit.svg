@@ -19,6 +19,7 @@
 <style type="text/css"><![CDATA[
 
 rect:nth-of-type(1) {
+stroke: none;
 fill: rgb(191, 0, 0);
 }
 
