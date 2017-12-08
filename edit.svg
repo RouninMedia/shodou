@@ -1,66 +1,76 @@
 <svg xmlns="http://www.w3.org/2000/svg"
      xmlns:xlink="http://www.w3.org/1999/xlink"
-     viewBox="0 0 420 420">
+     viewBox="0 0 460 460">
 
 <defs>
+
+<clipPath id="clip-corner">
+<path d="M0,76 L274,76 L224,126 L306,209 L355,160 L355,420 L0,420 L0,76" />
+</clipPath>
+
+<clipPath id="clip-pencil-left">
+<path d="M-110,230 L-55,285 L-110,340 L265,340 L265,230 L-110,230" />
+</clipPath>
+
+<clipPath id="clip-central-stripe">
+<path d="M-80,250 L-45,285 L-80,320 L200,320 L200,250, L-80,250" />
+</clipPath>
+
 <style type="text/css"><![CDATA[
 
-polygon {
-fill: rgb(255, 0, 0);
-}
-
-polygon + g {
-transform: translate(6px, -18px);
-}
-
-rect {
-stroke: rgb(255,255,255);
-stroke-width: 10;
-fill: rgb(255, 0, 0);
-}
-
-g g rect, rect:nth-of-type(n+2) {
-stroke-width: 10;
+rect:nth-of-type(1) {
+fill: rgb(191, 0, 0);
 }
 
 rect:nth-of-type(2) {
-stroke: rgb(255, 0, 0);
-fill: rgb(255, 0, 0);
+clip-path: url(#clip-corner);
 }
 
-g g rect:nth-of-type(2), rect:nth-of-type(4) {
+rect, g rect:nth-of-type(1) {
 stroke: rgb(255,255,255);
-fill: rgb(255,255,255);
+stroke-width: 10;
+fill: rgba(0, 0, 0, 0);
+}
+
+g rect:nth-of-type(1) {
+clip-path: url(#clip-pencil-left);
 }
 
 line {
-stroke:rgb(255,255,0);
 stroke-width: 20;
-stroke: rgb(255, 0, 0);
+stroke: rgb(255, 255, 255);
+}
+
+rect:last-of-type {
+fill: rgb(255, 255, 255);
+}
+
+g rect:last-of-type {
+transform: translateX(8px);
+clip-path: url(#clip-central-stripe);
+}
+
+path {
+stroke-width: 1;
+stroke:	rgb(255, 255, 0);
 }
 
 ]]></style>
 </defs>
 
-<polygon points="0,0 0,420 420,420 420,0"/>
+<rect x="0" y="0" width="460" height="460" />
 
-<g>
-<rect x="21" y="99" width="300" height="300" rx="15" ry="15" />
+<rect x="45" y="85" width="300" height="300" rx="15" ry="15" transform="translate(33.5, -6)" />
 
-<g transform="rotate(-45 50 50)">
+<g transform="rotate(-45 50 50) translate(28, 20)">
 <rect x="-100" y="240" width="355" height="90" />
-<rect x="-35" y="240" width="310" height="90" rx="15" ry="15" />
-<line x1="-60" y1="255" x2="190" y2="255" />
-<line x1="-60" y1="315" x2="190" y2="315" />
-<line x1="200" y1="235" x2="200" y2="335" />
-<line x1="240" y1="235" x2="240" y2="335" />
-<line x1="-60" y1="225" x2="190" y2="225" />
-<line x1="-60" y1="345" x2="190" y2="345" />
+<line x1="220" y1="235" x2="220" y2="335" />
+<rect x="264" y="240" width="10" height="90" rx="4" ry="4" />
+<rect x="254" y="240" width="10" height="90" />
+<rect x="-70" y="270" width="249" height="30" />
 </g>
 
-<rect x="131" y="275" width="26" height="26" />
-<rect x="76" y="296" width="60" height="60" />
-<rect x="76" y="336" width="20" height="20" />
-</g>
+<rect x="77" y="295" width="60" height="61" transform="translate(33.5, -6)" />
+<rect x="77" y="335" width="20" height="20" transform="translate(33.5, -6)" />
 
 </svg>
