@@ -21,19 +21,19 @@ fill: rgb(255, 0, 0);
 }
 
 text {
-font-size: 260px;
+font-size: 200px;
 stroke: rgb(255, 255, 255);
 fill: rgb(255, 255, 255);
 }
 
 text:nth-of-type(2) {
-font-size: 80px;
+font-size: 120px;
 }
 
 ]]></style>
 </defs>
 
 <rect x="0" y="0" width="410" height="410" />
-<text x="-3" y="255"><![CDATA[<]]>/<![CDATA[>]]></text>
-<text x="98" y="390">Meta</text>
+<text x="45" y="225"><![CDATA[<]]>/<![CDATA[>]]></text>
+<text x="40" y="370">Meta</text>
 </svg>
