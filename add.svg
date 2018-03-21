@@ -10,7 +10,7 @@ fill: rgb(255, 255, 255);
 }
 
 rect:nth-of-type(1) {
-fill: rgba(0, 0, 0, 0);
+fill: rgb(255, 0, 0);
 }
 
 ]]></style>
