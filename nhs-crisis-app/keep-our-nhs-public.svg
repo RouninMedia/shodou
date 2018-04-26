@@ -5,6 +5,10 @@
 <defs>
 <style type="text/css"><![CDATA[
 
+svg {
+background-color: rgb(255, 255, 255);
+}
+
 path {
 stroke-width: 1.35021091;
 }
