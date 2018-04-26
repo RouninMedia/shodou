@@ -15,10 +15,6 @@ circle:nth-of-type(1), polygon {
 fill: rgb(255, 255, 255);
 }
 
-svg {
-transform: rotate(180deg);
-}
-
 ]]></style>
 </defs>
 
