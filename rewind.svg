@@ -26,8 +26,8 @@ transform: rotate(180deg);
 <circle cx="200" cy="200" r="180"/>
 <circle cx="200" cy="200" r="166"/>
 
-<polygon points="170,80 170,320 354,200" />
-<polygon points="110,80 110,320 294,200" />
-<polygon points="100,80 100,320 284,200" />
+<polygon points="230,80 230,320 46,200" />
+<polygon points="290,80 290,320 106,200" />
+<polygon points="300,80 300,320 116,200" />
 
 </svg>
