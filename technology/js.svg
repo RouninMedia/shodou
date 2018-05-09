@@ -11,7 +11,7 @@ fill: #f7df1e;
 
 path {
 fill: rgb(0, 0, 0);
-transform: translate(12px, 24px);
+transform: translate(18px, 24px);
 }
 
 
