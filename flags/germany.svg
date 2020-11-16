@@ -1,11 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg"
      xmlns:xlink="http://www.w3.org/1999/xlink"
+     lang="en-GB"
      viewBox="0 0 360 360"
      preserveAspectRatio="none">
 
 <title>German Flag</title>
 
-<style>
+<defs>
+<style type="text/css"><![CDATA[
 
 rect:nth-of-type(1) {
 stroke: rgb(0,0,0);
@@ -23,7 +25,8 @@ stroke: rgb(255,255,0);
 fill: rgb(255,255,0);
 }
 
-</style>
+]]></style>
+</defs>
 
 <rect x="1" y="1" width="360" height="120" />
 <rect x="1" y="121" width="360" height="120" />
