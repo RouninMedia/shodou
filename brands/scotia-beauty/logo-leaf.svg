@@ -9,8 +9,8 @@
 <style type="text/css"><![CDATA[
 
 rect {
-width: 250;
-height: 250;
+width: 250px;
+height: 250px;
 fill: rgb(255, 0, 125);
 }
 
