@@ -13,13 +13,13 @@
     fill: #949494;
   }
   
-  .st1 {
+  .background {
     fill: #F1F1F1;
-    display: none;
   }
   
   .st2 {
     fill: #808080;
+    display: none;
   }
   
   .st3 {
