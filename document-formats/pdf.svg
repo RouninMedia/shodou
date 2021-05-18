@@ -11,6 +11,7 @@
 
   .st0 {
     fill: #949494;
+    display: none;
   }
   
   .st1 {
