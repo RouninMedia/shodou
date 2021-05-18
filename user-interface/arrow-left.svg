@@ -1,1 +1,9 @@
-transform:rotate(0deg)
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" lang="en-GB" viewBox="0 0 16 16">
+  <title>PDF Document Icon</title>
+  <defs>
+    <style><![CDATA[svg{transform:rotate(180deg);}rect{width:16px;height:16px;fill:rgb(191,0,0);}text{fill:rgb(255,255,255);}]]></style>
+  </defs>
+  <rect x="0" y="0"></rect>
+  <text x="3.8" y="13.6">➧</text>
+</svg>
+
