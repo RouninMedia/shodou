@@ -11,32 +11,32 @@
 
   .st0 {
     fill: #949494;
-    background-color: red;
+    fill: red;
   }
   
   .st1 {
     fill: #F1F1F1;
-    background-color: orange;
+    fill: orange;
   }
   
   .st2 {
     fill: #808080;
-    background-color: yellow;
+    fill: yellow;
   }
   
   .st3 {
     fill: #DC1D00;
-    background-color: green;
+    fill: green;
   }
   
   .st4 {
     fill: #4D4D4D;
-    background-color: blue;
+    fill: blue;
   }
   
   .st5 {
     fill: #FFFEFE;
-    background-color: purple;
+    fill: purple;
   }
 
   ]]></style>
