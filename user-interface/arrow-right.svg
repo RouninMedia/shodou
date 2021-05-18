@@ -4,5 +4,5 @@
     <style><![CDATA[rect{width:16px;height:16px;fill:rgb(191,0,0);}text{fill:rgb(255,255,255);}]]></style>
   </defs>
   <rect x="0" y="0"></rect>
-  <text x="3" y="13.6">➧</text>
+  <text x="3.5" y="13.6">➧</text>
 </svg>
