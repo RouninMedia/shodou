@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   lang="en-GB"
+   viewBox="0 0 768 768">
+
+  <title>Expand Category Icon</title>
+
+  <defs>
+
+    <style><![CDATA[
+
+      rect {
+        width: 768px;
+        height: 768px;
+        fill: rgb(191, 0, 0);
+      }
+
+      path {
+        fill: rgb(255, 255, 255);
+        transform: translateX(-9px);
+        filter: url(#drop-shadow);
+      }
+
+    ]]></style>
+    
+    <filter id="drop-shadow">
+      <feDropShadow dx="10" dy="10" stdDeviation="10" flood-color="rgb(0, 0, 0, 0.3)"/>
+      <feDropShadow dx="10" dy="-10" stdDeviation="10" flood-color="rgb(0, 0, 0, 0.3)"/>
+      <feDropShadow dx="-10" dy="-10" stdDeviation="10" flood-color="rgb(0, 0, 0, 0.3)"/>
+      <feDropShadow dx="-10" dy="10" stdDeviation="10" flood-color="rgb(0, 0, 0, 0.3)"/>
+    </filter>
+
+  </defs>
+
+  <rect x="0" y="0"></rect>
+  <path d="m 304.99,384.19019 -87.75,-73.56038 v -10.4349 c 0,-5.7392 0.25387,-10.43491 0.56416,-10.43491 0.31028,0 39.55653,20.1375 87.21387,44.75 47.65735,24.6125 87.19651,44.88934 87.86481,45.05964 0.6683,0.17031 40.63173,-19.96719 88.80762,-44.75 48.17589,-24.7828 87.82308,-45.05964 88.10487,-45.05964 0.28178,0 0.38461,4.83438 0.2285,10.74306 l -0.28383,10.74306 -87.5,73.18273 c -48.125,40.2505 -87.95,73.214 -88.5,73.25222 -0.55,0.0382 -40.4875,-33.03268 -88.75,-73.49088 z" />
+
+</svg>
