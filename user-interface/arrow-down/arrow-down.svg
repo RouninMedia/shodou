@@ -16,7 +16,7 @@
       rect {
         width: 768px;
         height: 768px;
-        fill: rgb(191,0,0);
+        fill: rgb(191, 0, 0);
       }
 
       path {
