@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg"
      xmlns:xlink="http://www.w3.org/1999/xlink"
      lang="en-GB"
-     viewBox="0 0 220 220">
+     viewBox="0 0 180 180">
 
 <title>External Link Icon</title>
 
@@ -9,14 +9,15 @@
 <style type="text/css"><![CDATA[
 
 rect {
-  width: 220px;
-  height: 220px;
+  width: 180px;
+  height: 180px;
   fill: rgb(255, 0, 0);
 }
 
 path {
   fill: rgb(255, 255, 255);
   stroke-width: 1.33;
+  transform: translate(-20px, -18px);
 }
 
 ]]></style>
