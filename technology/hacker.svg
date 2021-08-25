@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     lang="en-GB"
+     viewBox="0 0 540 540">
+
+<title>Hacker Icon</title>
+
+<defs>
+<style type="text/css"><![CDATA[
+
+svg {
+  background-color: rgb(255, 0, 0);	
+}
+
+#glider rect {
+  width: 540px;
+  height: 540px;
+  fill: rgb(191, 0, 0);
+  stroke: rgb(255, 255, 255);
+  stroke-width: 16px;
+}
+
+#glider line {
+  stroke: rgb(255, 255, 255);
+  stroke-width: 16px;
+}
+
+#glider circle {
+  fill: rgb(255, 255, 255);
+}
+
+]]></style>
+
+
+</defs>
+
+<g id="glider">
+  <rect x="0" y="0" />
+  <line x1="180" y1="8" x2="180" y2="532" />
+  <line x1="360" y1="8" x2="360" y2="532" />
+  <line x1="8" y1="180" x2="532" y2="180" />
+  <line x1="8" y1="360" x2="532" y2="360" />
+
+  <circle cx="270" cy="90" r="70" />
+  <circle cx="450" cy="270" r="70" />
+  <circle cx="90" cy="450" r="70" />
+  <circle cx="270" cy="450" r="70" />
+  <circle cx="450" cy="450" r="70" />
+</g>
+
+</svg>
