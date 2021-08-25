@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     lang="en-GB"
+     viewBox="0 0 229 229">
+
+<title>HyperCore Protocol Icon</title>
+
+<defs>
+<style type="text/css"><![CDATA[
+
+#isodiamond {
+  width: 43.30127px;
+  height: 50px;
+  stroke-width: 2px;
+  transform: skewY(30deg);
+}
+
+#hypercube :nth-child(2) {
+  transform: rotate(300deg);
+}
+
+#hypercube :nth-child(3) {
+  transform: translate(86.60134px, 0) rotate(60deg);
+}
+
+defs + rect {
+  width: 229px;
+  height: 229px;
+  fill: rgb(191, 0, 0);
+}
+
+.logo {
+  fill: rgba(255, 255, 255);
+  stroke: rgba(191, 0, 0);
+  transform: translate(29px, 25px);
+}
+
+]]></style>
+
+<rect id="isodiamond"></rect>
+
+<g id="hypercube">
+  <use href="#isodiamond"/>
+  <use href="#isodiamond" />
+  <use href="#isodiamond" />
+</g>
+
+<g id="hypercore-protocol-logo">
+  <use href="#hypercube" x="0" y="125"/>
+  <use href="#hypercube" x="86.6025" y="75"/>
+  <use href="#hypercube" x="43.30127" y="0"/>
+</g >
+
+</defs>
+
+<rect />
+
+<use class="logo" href="#hypercore-protocol-logo" x="0" y="2"/>
+
+</svg>
