@@ -21,15 +21,6 @@
       transform: translateX(14px);
     }
 
-    text {
-      fill: rgb(255, 255, 255);
-      stroke: rgb(63, 0, 0);
-      stroke-width: 4px;
-      font-size: 72px;
-      font-family: courier;
-      font-weight: 700;
-    }
-
     #glider rect {
       width: 540px;
       height: 540px;
