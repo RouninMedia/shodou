@@ -24,6 +24,8 @@ rect:nth-of-type(2) {
   width: 60px;
   height: 60px;
   fill: rgb(191, 0, 0, 0.9);
+  stroke: rgb(127, 0, 0);
+  stroke-width: 3px;
 }
 
 text {
