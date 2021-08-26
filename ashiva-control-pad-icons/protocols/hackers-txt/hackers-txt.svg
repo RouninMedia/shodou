@@ -30,7 +30,7 @@
     }
 
     #glider line {
-      stroke: rgb(255, 255, 255);
+      stroke: rgb(127, 0, 0);
       stroke-width: 16px;
     }
 
