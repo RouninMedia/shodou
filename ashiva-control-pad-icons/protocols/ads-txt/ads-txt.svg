@@ -34,7 +34,7 @@
   }
   
   #letter path {
-    transform: translate(1px, 7px);
+    transform: translate(1px, 5px);
   }
   
   #letter path:nth-of-type(1) {
