@@ -68,7 +68,7 @@
   }
   
   #letter path {
-    transform: translateX(1px);
+    transform: translate(1px, 3px);
   }
   
   #letter path:nth-of-type(1) {
