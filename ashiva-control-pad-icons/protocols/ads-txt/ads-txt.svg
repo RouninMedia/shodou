@@ -33,7 +33,11 @@
     stroke-width: 10.6px;
   }
   
-
+  #letter path {
+    transform: translate(1px, 5px);
+    stroke: rgb(63, 0, 0);
+    stroke-width: 30px;  
+  }
   
   ]]></style>
   
