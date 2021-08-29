@@ -20,7 +20,7 @@
       fill-rule: evenodd;
       stroke: rgb(255, 255, 255);
       stroke-width: 1;
-      transform: translate(-103px, -90px) rotate(90deg);
+      transform: translate(-103px, -90px);
     }
 
     ]]></style>
