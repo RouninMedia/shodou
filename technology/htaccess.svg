@@ -17,7 +17,7 @@
 
     path {
       fill: rgb(255, 255, 255);
-      transform: translate(12px, 270px);
+      transform: translate(4px, 270px);
     }
 
     #apache {
