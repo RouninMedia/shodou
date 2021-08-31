@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg"
      xmlns:xlink="http://www.w3.org/1999/xlink"
      lang="en-GB"
-     viewBox="0 0 712 712">
+     viewBox="0 0 760 760">
 
   <title>PHP Logo</title>
 
@@ -10,9 +10,9 @@
   <style type="text/css"><![CDATA[
 
   rect {
-    fill: rgb(255, 255, 255);
-    width: 712px;
-    height: 712px;
+    fill: rgb(255, 0, 0);
+    width: 760px;
+    height: 760px;
   }
   
   #badge {
