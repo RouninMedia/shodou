@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg"
      xmlns:xlink="http://www.w3.org/1999/xlink"
      lang="en-GB"
-     viewBox="0 0 760 760">
+     viewBox="0 0 772 772">
 
   <title>PHP Logo</title>
 
@@ -11,8 +11,8 @@
 
   rect {
     fill: rgb(255, 0, 0);
-    width: 760px;
-    height: 760px;
+    width: 772px;
+    height: 772px;
   }
   
   #badge {
