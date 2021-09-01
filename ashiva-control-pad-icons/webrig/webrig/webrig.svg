@@ -1,30 +1,51 @@
-<svg xmlns="http://www.w3.org/2000/svg"
+<svg xmlns="http://www.w3.org/2000/svg" 
      xmlns:xlink="http://www.w3.org/1999/xlink"
      lang="en-GB"
-     viewBox="0 0 400 400">
+     viewBox="0 0 2070 2070">
 
-<title>Ashiva WebRig Icon</title>
+  <title>Ashiva WebRig Icon</title>
 
-<defs>
-<style type="text/css"><![CDATA[
+  <defs>
 
-rect {
-  width: 400px;
-  height: 400px;
-  fill: rgb(191, 0, 0);
-}
+    <style type="text/css"><![CDATA[
 
-path {
-  fill: rgb(255, 255, 255);
-  stroke-width: 1;
-}
+    rect {
+      width: 2070px;
+      height: 2070px;
+      fill: rgb(191, 0, 0);
+    }
 
-]]></style>
+    line {
+      stroke: rgb(255, 255, 255);
+      stroke-width: 24px;
+    }
 
-</defs>
+    #web-document {
+      transform: scale(1);
+    }
 
-<rect />
+    #web-document path {
+      fill: rgb(255, 255, 255);
+    }
 
-<path d="M 0.76190381,200.76191 Z m 112.99999619,86.5 v -45.5 h -45.999996 -46 v 45.5 45.5 h 46 45.999996 z m -77.999996,-1 v -31.5 h 32.5 32.499996 v 31.5 31.5 h -32.499996 -32.5 z m 211.999996,1 v -45.5 h -46 -46 v 45.5 45.5 h 46 46 z m -78,-1 v -31.5 h 32.5 32.5 v 31.5 31.5 h -32.5 -32.5 z m 211,1 v -45.5 h -46 -46 v 45.5 45.5 h 46 46 z m -78,-1 v -31.5 h 32.5 32.5 v 31.5 31.5 h -32.5 -32.5 z m -227.999996,-68.5 v -15 h 60.499996 60.5 v 15 15 h 5.5 5.5 v -15 -15 h 60.5 60.5 v 15 15 h 6.5 6.5 v -20.5 -20.5 h -67 -67 v -15 -15 h -5.5 -5.5 v 15 15 h -67 -66.999996 v 20.5 20.5 h 6.5 6.5 z m 171.999996,-108.5 V 63.761906 h -46 -46 v 45.500004 45.5 h 46 46 z m -78,-1 V 76.761906 h 32.5 32.5 v 31.500004 31.5 h -32.5 -32.5 z" />
+    ]]></style>
 
-</svg>
+    <g id="web-document">
+      <path d="M 11.999974,288.75 11.999948,12.5 176.74997,12.755272 341.5,13.010544 388.25,59.751283 435,106.49202 V 335.74601 565 H 223.5 12 Z M 417,333.5 V 120 H 370.5 324 V 75.5 31 H 177.5 31 V 289 547 H 224 417 Z M 68,482 v -9 H 223.5 379 v 9 9 H 223.5 68 Z m 0,-71 v -9 H 223.5 379 v 9 9 H 223.5 68 Z m 0,-70 v -9 H 223.5 379 v 9 9 H 223.5 68 Z m 0,-71 v -9 H 223.5 379 v 9 9 H 223.5 68 Z m 0,-70 v -9 H 223.5 379 v 9 9 H 223.5 68 Z M 396.15506,95.174899 C 388.54795,86.594484 353.33587,52.087409 349.13451,49.095777 L 346,46.863812 V 74.431906 102 h 28.10298 28.10299 z" />
+    </g>
+
+  </defs>
+
+  <rect />
+
+  <line x1="405" y1="1023" x2="1665" y2="1023" />
+  <line x1="405" y1="1011" x2="405" y2="1163" />
+  <line x1="1023" y1="883" x2="1023" y2="1163" />
+  <line x1="1665" y1="1011" x2="1665" y2="1163" />
+
+  <use id="webrig-document-top" href="#web-document" x="798" y="284" />
+  <use id="webrig-document-left" href="#web-document" x="180" y="1187" />
+  <use id="webrig-document-middle" href="#web-document" x="798" y="1187" />
+  <use id="webrig-document-right" href="#web-document" x="1426" y="1187" />
+
+  </svg>
