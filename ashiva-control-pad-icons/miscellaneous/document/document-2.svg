@@ -16,7 +16,7 @@
     }
 
     polygon {
-      fill: rgba(255, 255, 255, 0.2);
+      fill: rgba(255, 255, 255, 0.6);
       transform: translate(10px, -8px);
     }
 
@@ -25,7 +25,7 @@
     }
 
     path:nth-of-type(1) {
-      fill: rgba(255, 255, 255, 0.7);
+      fill: rgba(255, 255, 255, 0.8);
     }
 
     path:nth-of-type(2) {
