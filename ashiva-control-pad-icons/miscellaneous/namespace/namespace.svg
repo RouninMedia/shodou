@@ -26,6 +26,6 @@
 
   <rect />
 
-  <text>»by»</text>
+  <text x="0" y="20">»by»</text>
 
 </svg>
