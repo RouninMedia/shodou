@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     lang="en-GB"
+     viewBox="0 0 690 690">
+
+  <title>Control Pad Menu</title>
+
+  <defs>
+
+  <style type="text/css"><![CDATA[
+
+  rect {
+    width: 690px;
+    height: 690px;
+    fill: rgb(191, 0, 0);
+  }
+
+  path {
+    fill: rgb(255, 255, 255);
+    stroke-width: 1;
+  }
+
+  ]]></style>
+
+  </defs>
+
+  <rect />
+
+  <path d="M 0,529.5 V 460 h 40 40 v 31.5 31.5 h 42 42 v 38 38 H 82 0 Z M 526,561 v -38 h 42 42 V 491.5 460 h 40 40 V 529.5 599 H 608 526 Z M 0,160.5 V 91 h 82 82 v 38 38 H 122 80 V 198.5 230 H 40 0 Z m 610,38 V 167 H 568 526 V 129 91 h 82 82 v 69.5 69.5 h -40 -40 z"></path>
+
+</svg>
