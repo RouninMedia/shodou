@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     lang="en-GB"
+     viewBox="0 0 500 500">
+
+  <title>European Union Flag</title>
+
+  <defs>
+
+  <style type="text/css"><![CDATA[
+
+  rect,
+  circle {
+    width: 500px;
+    height: 500px;
+    fill: rgb(0, 51, 153);
+  }
+
+  #starPoints1_1 {
+    d: path('M0,0v1h0.5z');
+    transform: translate(0, -1px) rotate(18deg);
+  }
+
+  #starPoints1_2 {
+    transform: scale(-1, 1);
+  }
+
+  #starPoints2_1 {
+    transform: rotate(72deg);
+  }
+  
+  #starPoints2_2 {
+    transform: rotate(144deg);
+  }
+
+  #starPoints3 {
+    transform: scale(-1, 1);
+  }
+
+  #topStar {
+    y: -6px;
+  }
+
+  #rightFiveStars {
+    transform: scale(-1, 1);
+  }
+
+  #star1 {
+    transform: rotate(150deg) translate(0, 6px) rotate(66deg);
+  }
+
+  #star2 {
+    transform: rotate(120deg) translate(0, 6px) rotate(24deg);
+  }
+
+  #star3 {
+    x: -6px;
+  }
+
+  #star4 {
+    transform: rotate(60deg) translate(0, 6px) rotate(12deg);
+  }
+
+  #star5 {
+    transform: rotate(30deg) translate(0, 6px) rotate(42deg);
+  }
+
+  #bottomStar {
+    y: 6px;
+  }
+
+  #starCircle {
+    fill: rgb(255, 204, 0);
+    transform: scale(30) translate(8.35px, 8.43px);
+  }
+  
+  ]]></style>
+
+
+  <g id="star">
+    <g id="starPoints1">
+      <path id="starPoints1_1" />
+      <use id="starPoints1_2" href="#starPoints1_1" />
+    </g>
+
+    <g id="starPoints2">
+      <use id="starPoints2_1" href="#starPoints1" />
+      <use id="starPoints2_2" href="#starPoints1" />
+    </g>
+    
+    <use id="starPoints3" href="#starPoints2" />
+  </g>
+
+</defs>
+
+<!-- <circle cx="250" cy="250" r="250"/> -->
+<rect />
+
+<g id="starCircle">
+
+  <use id="topStar" href="#star" />
+  
+  <g id="leftFiveStars">
+    <use id="star1" href="#star" />
+    <use id="star2" href="#star" />
+    <use id="star3" href="#star" />
+    <use id="star4" href="#star" />
+    <use id="star5" href="#star" />
+  </g>
+
+  <use id="rightFiveStars" href="#leftFiveStars" />
+
+  <use id="bottomStar" href="#star" />
+
+</g>
+
+
+</svg>
