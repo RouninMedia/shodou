@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     lang="en-GB"
+     viewBox="0 0 60 30"
+     preserveAspectRatio="none">
+
+  <title>United Kingdom Flag</title>
+
+  <defs>
+
+  <style type="text/css"><![CDATA[
+
+    #stAndrewField {
+      fill: rgb(1, 33, 105);
+      d: path('M0,0 v30 h60 v-30 z');
+    }
+
+    #stPatrickClip path {
+      d: path('M30,15 h30 v15 z v15 h-30 z h-30 v-15 z v-15 h30 z');
+    }
+
+    #stPatrickField {
+      stroke: rgb(255, 255, 255);
+      stroke-width: 6px;
+      d: path('M0,0 L60,30 M60,0 L0,30');
+    }
+
+    #stPatrickCross {
+      stroke: rgb(200, 16, 46);
+      stroke-width: 4px;
+      d: path('M0,0 L60,30 M60,0 L0,30');
+      clip-path: url(#stPatrickClip);
+    }
+
+    #stGeorgeField {
+      stroke: rgb(255, 255, 255);
+      stroke-width: 10px;
+      d: path('M30,0 v30 M0,15 h60');
+    }
+
+    #stGeorgeCross {
+      stroke: rgb(200, 16, 46);
+      stroke-width: 6px;
+      d: path('M30,0 v30 M0,15 h60');
+    }
+  
+  ]]></style>
+  
+</defs>
+
+<clipPath id="stPatrickClip">
+  <path />
+</clipPath>
+
+<g>
+  <path id="stAndrewField" />
+  <path id="stPatrickField" />
+  <path id="stPatrickCross" />
+  <path id="stGeorgeField" />
+  <path id="stGeorgeCross" />
+</g>
+
+
+</svg>
