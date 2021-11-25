@@ -17,8 +17,6 @@
 
       path {
         fill: rgb(255, 255, 255);
-        stroke: rgb(191, 191, 191);
-        stroke-width: 1px;
         transform: translate(50px, 104px) scale(0.9);
       }
 
