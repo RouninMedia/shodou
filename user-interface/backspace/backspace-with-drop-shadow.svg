@@ -41,10 +41,10 @@
         
         
     <filter id="drop-shadow">
-      <feDropShadow dx="2" dy="2" stdDeviation="2" flood-color="rgb(0, 0, 0, 0.3)"/>
-      <feDropShadow dx="2" dy="-2" stdDeviation="2" flood-color="rgb(0, 0, 0, 0.3)"/>
-      <feDropShadow dx="-2" dy="-2" stdDeviation="2" flood-color="rgb(0, 0, 0, 0.3)"/>
-      <feDropShadow dx="-2" dy="2" stdDeviation="2" flood-color="rgb(0, 0, 0, 0.3)"/>
+      <feDropShadow dx="1" dy="1" stdDeviation="1" flood-color="rgb(0, 0, 0, 0.3)"/>
+      <feDropShadow dx="1" dy="-1" stdDeviation="1" flood-color="rgb(0, 0, 0, 0.3)"/>
+      <feDropShadow dx="-1" dy="-1" stdDeviation="1" flood-color="rgb(0, 0, 0, 0.3)"/>
+      <feDropShadow dx="-1" dy="1" stdDeviation="1" flood-color="rgb(0, 0, 0, 0.3)"/>
     </filter>
 
   </defs>
