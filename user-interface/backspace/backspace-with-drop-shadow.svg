@@ -1,0 +1,15 @@
+      path {
+        fill: rgb(255, 255, 255);
+        transform: translateX(-4px);
+        filter: url(#drop-shadow);
+      }
+
+    ]]></style>
+    
+   
+    <filter id="drop-shadow">
+      <feDropShadow dx="10" dy="10" stdDeviation="10" flood-color="rgb(0, 0, 0, 0.3)"/>
+      <feDropShadow dx="10" dy="-10" stdDeviation="10" flood-color="rgb(0, 0, 0, 0.3)"/>
+      <feDropShadow dx="-10" dy="-10" stdDeviation="10" flood-color="rgb(0, 0, 0, 0.3)"/>
+      <feDropShadow dx="-10" dy="10" stdDeviation="10" flood-color="rgb(0, 0, 0, 0.3)"/>
+    </filter>
