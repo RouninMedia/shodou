@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     lang="en-GB"
+     viewBox="0 0 432 432">
+  
+<title>Wordis³h ServiceShield On Icon</title>
+
+<defs>
+  
+  <style type="text/css"><![CDATA[
+
+  #wordish-logo text {
+    stroke: rgb(127, 127, 127);
+    stroke-width: 18px;
+    fill: rgb(127, 127, 127);
+    font-family: sans-serif;
+    font-size: 280px;
+  }
+
+  ]]></style>
+
+
+  <g id="wordish-logo">
+  
+    <text>W</text>
+  
+  </g>
+
+
+</defs>
+  
+<path d="M215.9,0L35.7,54.4v136c0,88.401,73.06,184.504,180.2,241.401c107.141-56.896,180.2-153,180.2-241.401v-136L215.9,0z M215.9,400.711c-92.059-53.17-153-136.307-153-210.311V74.603l153-46.186V400.711z"></path>
+
+<use id="wordish-symbol" href="#wordish-logo" x="84" y="310" />
+
+</svg>
