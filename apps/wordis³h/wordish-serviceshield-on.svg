@@ -12,7 +12,7 @@
     background-color: rgb(11, 64, 161);
   }
 
-  .path {
+  path {
     fill: rgb(0, 43, 128);
     filter: drop-shadow(30px 30px 30px rgba(255, 255, 255, 0.2)) 
             drop-shadow(30px -30px 30px rgba(255, 255, 255, 0.2))
