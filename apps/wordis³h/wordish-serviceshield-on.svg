@@ -8,10 +8,18 @@
   
   <style type="text/css"><![CDATA[
 
+  .path {
+    fill: rgb(0, 43, 128);
+    filter: drop-shadow(30px 30px 30px rgba(255, 255, 255, 0.2)) 
+            drop-shadow(30px -30px 30px rgba(255, 255, 255, 0.2))
+            drop-shadow(-30px -30px 30px rgba(255, 255, 255, 0.2))
+            drop-shadow(-30px 30px 30px rgba(255, 255, 255, 0.2));
+  }
+
   #wordish-logo text {
-    stroke: rgb(127, 127, 127);
+    stroke: rgba(255, 255, 255, 0.6);
     stroke-width: 18px;
-    fill: rgb(127, 127, 127);
+    fill: rgb(255, 255, 255);
     font-family: sans-serif;
     font-size: 280px;
   }
