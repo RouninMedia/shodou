@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     lang="en-GB"
+     viewBox="0 0 768 768">
+
+  <title>Full Screen Icon</title>
+
+  <defs>
+
+  <style type="text/css"><![CDATA[
+
+  rect {
+    width: 768px;
+    height: 768px;
+    fill: rgb(191, 0 , 0);
+  }
+
+  path {
+    fill: rgb(255, 255, 255);
+  }
+
+  ]]></style>
+
+  </defs>
+
+  <rect />
+  <path d="M 74,562.5 V 485 h 44 44 v 35 35 h 47 47 V 597.5 640 H 165 74 Z m 438,35 V 555 h 47 47 v -35 -35 h 44 44 V 562.5 640 H 603 512 Z M 74,205.5 V 128 h 91 91 v 42.5 42.5 h -47 -47 v 35 35 H 118 74 Z M 606,248 V 213 H 559 512 V 170.5 128 h 91 91 v 77.5 77.5 h -44 -44 z" />
+
+</svg>
+
