@@ -23,7 +23,7 @@
 
   ]]></style>
      
-  <mask id="myMask" maskContentUnits="objectBoundingBox">
+  <mask id="myMask">
     <rect width="204" height="204" fill="rgb(255, 0, 0, 0.9)" />
   </mask>
 
