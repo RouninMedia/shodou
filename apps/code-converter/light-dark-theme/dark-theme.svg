@@ -25,7 +25,7 @@
   </defs>
      
   <mask id="myMask" maskContentUnits="objectBoundingBox">
-    <circle cx=".5" cy=".5" r=".5" />
+    <circle cx="40px" cy="40px" r="40px" />
   </mask>
      
   <!--<clipPath id="myyClip" clipPathUnits="objectBoundingBox">
