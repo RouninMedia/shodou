@@ -11,11 +11,11 @@
   rect {
     width: 204px;
     height: 204px;
-    fill: rgb(0, 0, 0, 0.9);
+    fill: rgb(191, 0, 0);
   }
 
   path {
-    fill: rgb(255, 255, 255, 0.2);
+    fill: rgb(255, 255, 255);
   }
 
   ]]></style>
