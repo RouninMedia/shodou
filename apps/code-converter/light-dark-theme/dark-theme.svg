@@ -23,7 +23,7 @@
 
   ]]></style>
      
-  <mask id="myMask">
+  <mask id="myMask" maskUnits="userSpaceOnUse">
     <rect width="204" height="204" fill="rgb(255, 0, 0, 0.9)" />
   </mask>
 
