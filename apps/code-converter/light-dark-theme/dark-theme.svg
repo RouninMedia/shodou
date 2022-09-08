@@ -13,7 +13,7 @@
     rect#icon {
       rx: 50%;
       ry: 50%;
-      fill: rgba(0, 0, 0, 0.9);
+      fill: rgba(0, 0, 0, 0.6);
       mask: url(#letters);
     }
   
