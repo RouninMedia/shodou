@@ -25,11 +25,11 @@
   <rect/>
   
   <g>
-    <circle cx="30" cy="180" r="12" />
-    <circle cx="66" cy="180" r="12" />
-    <circle cx="102" cy="180" r="12" />
-    <circle cx="138" cy="180" r="12" />
-    <circle cx="174" cy="180" r="12" />
+    <circle cx="30" cy="156" r="12" />
+    <circle cx="66" cy="156" r="12" />
+    <circle cx="102" cy="156" r="12" />
+    <circle cx="138" cy="156" r="12" />
+    <circle cx="174" cy="156" r="12" />
   </g>
 
 </svg>
