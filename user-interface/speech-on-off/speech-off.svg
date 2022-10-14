@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     lang="en-GB"
+     viewBox="0 0 204 204">
+
+  <title>Speech Off Icon</title>
+
+  <defs>
+
+  <style type="text/css"><![CDATA[
+
+  rect {
+    width: 204px;
+    height: 204px;
+    fill: rgb(191, 0, 0);
+  }
+
+  circle {
+    fill: rgb(255, 255, 255);
+  }
+
+  ]]></style>
+
+  </defs>
+
+  <rect/>
+  
+  <g>
+    <circle cx="24" cy="180" r="12" />
+    <circle cx="60" cy="180" r="12" />
+    <circle cx="96" cy="180" r="12" />
+    <circle cx="132" cy="180" r="12" />
+    <circle cx="168" cy="180" r="12" />
+  </g>
+
+</svg>
