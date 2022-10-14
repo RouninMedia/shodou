@@ -25,12 +25,11 @@
   <rect/>
   
   <g>
-    <line x1="30" y1="42" x2="30" y2="162" stroke="rgb(255, 255, 0)" stroke-width="24" stroke-linecap="round" />
-    <circle cx="30" cy="156" r="12" />
-    <circle cx="66" cy="156" r="12" />
-    <circle cx="102" cy="156" r="12" />
-    <circle cx="138" cy="156" r="12" />
-    <circle cx="174" cy="156" r="12" />
+    <line x1="30" y1="42" x2="30" y2="162" stroke="rgb(255, 255, 255)" stroke-width="24" stroke-linecap="round" />
+    <line x1="66" y1="42" x2="66" y2="162" stroke="rgb(255, 255, 255)" stroke-width="24" stroke-linecap="round" />
+    <line x1="102" y1="42" x2="102" y2="162" stroke="rgb(255, 255, 255)" stroke-width="24" stroke-linecap="round" />
+    <line x1="138" y1="42" x2="138" y2="162" stroke="rgb(255, 255, 255)" stroke-width="24" stroke-linecap="round" />
+    <line x1="174" y1="42" x2="174" y2="162" stroke="rgb(255, 255, 255)" stroke-width="24" stroke-linecap="round" />
   </g>
 
 </svg>
