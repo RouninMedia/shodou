@@ -25,8 +25,7 @@
   <rect/>
   
   <g>
-    <line x1="30" y1="42" x2="30" y2="162" stroke="black" stroke-width="12" stroke-linecap="round" />
-    <circle cx="30" cy="156" r="12" />
+    <line x1="24" y1="42" x2="24" y2="162" stroke="rgb(255, 255, 255)" stroke-width="24" stroke-linecap="round" />
     <circle cx="66" cy="156" r="12" />
     <circle cx="102" cy="156" r="12" />
     <circle cx="138" cy="156" r="12" />
