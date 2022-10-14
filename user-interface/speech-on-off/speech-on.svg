@@ -14,8 +14,10 @@
     fill: rgb(191, 0, 0);
   }
 
-  circle {
-    fill: rgb(255, 255, 255);
+  line {
+    stroke: rgb(255, 255, 255);
+    stroke-width: 24px;
+    stroke-linecap: round;
   }
 
   ]]></style>
@@ -25,11 +27,11 @@
   <rect/>
   
   <g>
-    <line x1="30" y1="42" x2="30" y2="162" stroke="rgb(255, 255, 255)" stroke-width="24" stroke-linecap="round" />
-    <line x1="66" y1="42" x2="66" y2="162" stroke="rgb(255, 255, 255)" stroke-width="24" stroke-linecap="round" />
-    <line x1="102" y1="42" x2="102" y2="162" stroke="rgb(255, 255, 255)" stroke-width="24" stroke-linecap="round" />
-    <line x1="138" y1="42" x2="138" y2="162" stroke="rgb(255, 255, 255)" stroke-width="24" stroke-linecap="round" />
-    <line x1="174" y1="42" x2="174" y2="162" stroke="rgb(255, 255, 255)" stroke-width="24" stroke-linecap="round" />
+    <line x1="30" y1="90" x2="30" y2="114" />
+    <line x1="66" y1="42" x2="66" y2="162" />
+    <line x1="102" y1="66" x2="102" y2="138" />
+    <line x1="138" y1="78" x2="138" y2="126" />
+    <line x1="174" y1="66" x2="174" y2="138" />
   </g>
 
 </svg>
