@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     lang="en-GB"
+     viewBox="0 0 1200 1200">
+
+<title>Ashiva Logo</title>
+
+<defs>
+     
+<clipPath id="circle-edge">  
+<circle cx="600" cy="600" r="600" />  
+</clipPath>
+
+
+<style><![CDATA[
+
+svg {
+  transform: scale(0.96);
+}
+
+g {
+  clip-path: url(#circle-edge);
+}
+
+circle {
+  fill: rgb(45, 69, 101);
+}
+
+rect {
+  width: 1200px;
+  height: 600px;
+  fill: rgb(60, 86, 118);
+}
+
+line {
+  stroke: rgb(255, 255, 255);
+  stroke-width: 100;
+}
+
+]]></style>
+
+</defs>
+
+<g>
+<circle cx="600" cy="600" r="600" />
+<rect x="0" y="0" transform="rotate(-28, 600, 600)" />
+<line x1="535" x2="535" y1="0" y2="1200" transform="rotate(25, 580, 0) translate(0, -2)" />
+<line x1="665" x2="665" y1="0" y2="1200" transform="rotate(-25, 620, 0) translate(0, -2)" />
+<line x1="535" x2="535" y1="0" y2="1200" transform="rotate(-25, 580, 1200) translate(0, 2)" />
+<line x1="665" x2="665" y1="0" y2="1200" transform="rotate(25, 620, 1200) translate(0, 2)" />
+<line x1="300" x2="900" y1="600" y2="600" />
+</g>
+
+</svg>
