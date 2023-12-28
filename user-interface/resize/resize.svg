@@ -16,7 +16,7 @@
 
       path {
         fill: rgb(255, 255, 255);
-        transform: translate(20px, 155px); 
+        transform: translate(10px, 145px); 
       }
 
     ]]></style>
