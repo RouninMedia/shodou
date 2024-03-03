@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     lang="en-GB"
+     viewBox="0 0 100 100">
+
+  <title>Document Icon</title>
+  
+  <defs>
+    <style><![CDATA[
+
+    :root {
+       --themeColor00: rgba(127, 0, 0);
+       --themeColor01: rgb(255, 255, 255);
+    }
+    
+    rect {
+      width: 100px;
+      height: 100px;
+      fill: var(--themeColor00);
+    }
+    
+    polygon,
+    polyline {
+      fill: rgb(0,0,0,0);
+      stroke: var(--themeColor01);
+      stroke-width: 1px;
+    }
+    
+    line {
+      stroke: var(--themeColor01);
+      stroke-width: 1px;
+      shape-rendering: crispEdges;
+      vector-effect: non-scaling-stroke;
+    }
+
+    ]]>
+    </style>
+  </defs>
+
+  <rect/>
+
+  <g id="plusIcon">
+    <polygon points="20,20 30,10 80,10 80,90 20,90"/>
+    <polyline points="30,10 30,20 20,20"/>
+    <line x1="30" y1="35" x2="70" y2="35"/>
+    <line x1="30" y1="47.5" x2="70" y2="47.5"/>
+    <line x1="30" y1="60" x2="70" y2="60"/>
+    <line x1="30" y1="72.5" x2="70" y2="72.5"/>
+  </g>
+
+</svg>
