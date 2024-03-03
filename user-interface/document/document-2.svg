@@ -38,7 +38,7 @@
 
   <rect/>
 
-  <g id="plusIcon">
+  <g id="document">
     <polygon points="20,20 30,10 80,10 80,90 20,90"/>
     <polyline points="30,10 30,20 20,20"/>
     <line x1="30" y1="35" x2="70" y2="35"/>
