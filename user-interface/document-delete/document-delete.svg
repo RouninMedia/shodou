@@ -30,11 +30,6 @@
     stroke: var(--themeColor01);
   }
 
-  #crossIcon line {
-    transform-origin: center;   
-    transform: rotate(45deg);
-  }
-
   #crossIcon circle {
     fill: var(--themeColor00);
     stroke: var(--themeColor01);
@@ -72,7 +67,7 @@
 <g id="crossIcon">
   <circle cx="80" cy="12" r="10"/>
   <circle cx="80" cy="12" r="12"/>
-  <line x1="80" y1="6" x2="80" y2="18" />
+  <line x1="74" y1="6" x2="86" y2="18" />
   <line x1="74" y1="12" x2="86" y2="12" />
 </g>
 
