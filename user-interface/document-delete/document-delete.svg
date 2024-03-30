@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     lang="en-GB"
+     viewBox="0 0 100 100">
+
+<title>Delete Document Icon</title>
+
+<defs>
+
+  <style><![CDATA[
+
+  :root {
+    --themeColor00: rgb(191, 0, 0);
+    --themeColor01: rgb(255, 255, 255);
+  }
+
+  rect {
+    width: 100px;
+    height: 100px;
+    fill: var(--themeColor00);
+  }
+
+  polygon,
+  polyline {
+    fill: rgb(0, 0, 0, 0);
+    stroke: var(--themeColor01);
+    stroke-width: 1px;
+  }
+
+  line {
+    stroke: var(--themeColor01);
+  }
+
+  #crossIcon {
+    transform: rotate(45deg);
+  }
+
+  #crossIcon circle {
+    fill: var(--themeColor00);
+    stroke: var(--themeColor01);
+    stroke-width: 2px;
+  }
+
+  #crossIcon circle:nth-of-type(2) {
+    fill: rgb(0, 0, 0, 0);
+    stroke: var(--themeColor00);
+    stroke-width: 2px;
+  }
+
+  #crossIcon line {
+    stroke: var(--themeColor01);
+    stroke-width: 3px;
+  }
+
+  ]]></style>
+
+</defs>     
+     
+<rect />     
+
+<g id="document">
+  <polygon points="20,20 30,10 80,10 80,90 20,90" />
+  <polyline points="30,10 30,20 20,20" />
+  <line x1="30" y1="30" x2="70" y2="30" />
+  <line x1="30" y1="40" x2="70" y2="40" />
+  <line x1="30" y1="50" x2="70" y2="50" />
+  <line x1="30" y1="60" x2="70" y2="60" />
+  <line x1="30" y1="70" x2="70" y2="70" />
+  <line x1="30" y1="80" x2="70" y2="80" />
+</g>
+
+<g id="crossIcon">
+  <circle cx="80" cy="12" r="10"/>
+  <circle cx="80" cy="12" r="12"/>
+  <line x1="80" y1="6" x2="80" y2="18" />
+  <line x1="74" y1="12" x2="86" y2="12" />
+</g>
+
+</svg>
