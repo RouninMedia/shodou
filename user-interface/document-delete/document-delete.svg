@@ -30,7 +30,7 @@
     stroke: var(--themeColor01);
   }
 
-  #crossIcon {
+  #crossIcon line {
     transform: rotate(45deg);
   }
 
