@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     lang="en-GB"
+     viewBox="0 0 313.69 313.69">
+
+   <title>Down Arrow Icon</title>  
+
+   <defs>
+     <style type="text/css"><![CDATA[
+
+       rect {
+         width: 313.69px;
+         height: 313.69px;
+         fill: rgba(255, 0, 0, 1);
+       }
+
+       path {
+         fill: rgb(255, 255, 255);
+         transform-origin: center;
+         transform: rotate(270deg);
+       }
+
+     ]]></style>
+   </defs>
+
+  <rect />
+  <path d="m 106.14085,231.81558 -75.718313,-74.9705 75.718313,-74.970504 75.71831,-74.9705012 2.3662,-0.071756 2.3662,-0.071756 V 39.887326 73.014088 h 45.97183 45.97183 v 83.830992 83.83099 h -45.97183 -45.97183 v 33.12676 33.12676 l -2.3662,-0.0718 -2.3662,-0.0718 z"/>
+</svg>
