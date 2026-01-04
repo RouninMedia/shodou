@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     lang="en-GB"
+     viewBox="0 0 490 490">
+
+<title>Menu Icon</title>
+
+<defs>
+
+  <style><![CDATA[
+
+  rect {
+    width: 490px;
+    height: 490px;
+    fill: rgb(191, 0, 0);
+  }
+
+  circle {
+    fill: rgb(255, 255, 255);
+  }
+
+  ]]></style>
+
+</defs>     
+     
+<rect />
+
+<g>
+  <circle cx="245" cy="105" r="35" />
+  <circle cx="245" cy="245" r="35" />
+  <circle cx="245" cy="385" r="35" />
+</g>
+
+</svg>
